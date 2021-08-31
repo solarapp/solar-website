@@ -1,0 +1,54 @@
+/* This file contains all the css for the text in the website */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+:root {
+	--bg-color: #202c4b;
+	--text-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	margin: 0;
+	color: var(--text-color);
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-size: 13vw;
+	font-weight: 500;
+	text-shadow: 10px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 4.5vw;
+}
+
+h3 {
+	font-weight: 400;
+	font-size: 3.5vw;
+}
+
+h4 {
+	font-weight: 300;
+	font-size: 2vw;
+}
+
+@media screen and (max-width: 768px) {
+	h1 {
+		text-transform: uppercase;
+	}
+	h2 {
+		font-size: 6.5vw;
+	}
+	h3 {
+		font-size: 5vw;
+	}
+	h4 {
+		font-size: 3.2vw;
+	}
+}

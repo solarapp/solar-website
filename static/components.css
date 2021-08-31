@@ -1,0 +1,81 @@
+/* In this files there will be classes that can be dropped in and create an element, or component */
+
+/* This class creates a button similar to the one used to navigate to the play store */
+.button {
+	all: unset;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	background-color: #2e3a64;
+	border-radius: 2vw;
+	box-shadow: 4px 7px 6px;
+}
+
+.button:hover {
+	background-color: #3c4772;
+	box-shadow: inherit;
+}
+
+.button img {
+	width: 2.8vw;
+	padding-left: 3vw;
+}
+
+.button h3 {
+	white-space: nowrap;
+	padding: 1.5vw 2.5vw 1.5vw 1vw;
+	font-size: 2.2vw;
+}
+
+/* A wrapper for the icons at the bottom of the website */
+.social-icons a {
+	all: unset;
+}
+
+.social-icons img {
+	margin-left: 3vw;
+}
+
+/* A default flex implementation */
+
+.flex {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.flex h2 {
+	margin-left: 1vw;
+}
+
+@media screen and (max-width: 768px) {
+	.center-mobile {
+		justify-content: center;
+	}
+
+	.flex-mobile {
+		margin: 0 auto;
+		float: none;
+		display: table;
+	}
+
+	.flex-mobile div {
+		display: flex;
+		justify-content: center;
+	}
+
+	.flex-mobile h2 {
+		text-align: center;
+	}
+
+	.social-icons img {
+		width: 7vw;
+		margin-left: 6vw;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.margin-50-desktop {
+		margin-right: 50vw;
+	}
+}

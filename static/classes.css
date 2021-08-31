@@ -1,0 +1,41 @@
+/* This file contans lots of useful classes */
+
+.icon {
+	width: 3vw;
+	margin-right: 1.5vw;
+}
+
+.mobile-only {
+	display: none;
+}
+
+.mockup {
+	width: 25vh;
+	position: absolute;
+	right: 13vw;
+	top: -10vh;
+}
+
+@media screen and (max-width: 1024px) {
+	#logo {
+		margin-left: 20px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.desktop-only {
+		display: none;
+	}
+	.mobile-only {
+		display: block;
+	}
+	.icon {
+		width: 5vw;
+		margin-right: 3vw;
+	}
+	.mockup {
+		position: static;
+		margin: 3vh 0;
+		width: 18vh;
+	}
+}
