@@ -8,7 +8,7 @@
 	align-items: center;
 	background-color: #2e3a64;
 	border-radius: 2vw;
-	box-shadow: 4px 7px 6px;
+	box-shadow: 2px 4px 5px;
 }
 
 .button:hover {
@@ -48,24 +48,37 @@
 	margin-left: 1vw;
 }
 
+.mockup .img {
+	width: 25vh;
+	position: absolute;
+	right: 13vw;
+	top: -10vh;
+}
+
 @media screen and (max-width: 768px) {
 	.center-mobile {
 		justify-content: center;
 	}
 
-	.flex-mobile {
+	.mockup {
 		margin: 0 auto;
 		float: none;
 		display: table;
 	}
 
-	.flex-mobile div {
+	.mockup div {
 		display: flex;
 		justify-content: center;
 	}
 
-	.flex-mobile h2 {
+	.mockup h2 {
 		text-align: center;
+	}
+
+	.mockup .img {
+		position: static;
+		margin: 3vh 0;
+		width: 18vh;
 	}
 
 	.social-icons img {
@@ -77,5 +90,11 @@
 @media screen and (min-width: 768px) {
 	.margin-50-desktop {
 		margin-right: 50vw;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.mockup .img {
+		width: 20vw;
 	}
 }
