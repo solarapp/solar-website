@@ -27,6 +27,27 @@
 	font-size: 2.2vw;
 }
 
+.no-icon h3 {
+	padding: 1.5vw 2.5vw;
+}
+
+@media screen and (max-width: 768px) {
+	.button {
+		border-radius: 4vw;
+	}
+	.button img {
+		width: 5.5vw;
+		padding-left: 5vw;
+	}
+	.button h3 {
+		padding: 3vw 5vw 3vw 2vw;
+		font-size: 4.5vw;
+	}
+	.no-icon h3 {
+		padding: 3vw 5vw;
+	}
+}
+
 /* A wrapper for the icons at the bottom of the website */
 .social-icons a {
 	all: unset;
@@ -78,11 +99,11 @@
 	.mockup .img {
 		position: static;
 		margin: 3vh 0;
-		width: 18vh;
+		width: 25vh;
 	}
 
 	.social-icons img {
-		width: 7vw;
+		width: 8vw;
 		margin-left: 6vw;
 	}
 }
@@ -96,5 +117,8 @@
 @media screen and (min-width: 1440px) {
 	.mockup .img {
 		width: 20vw;
+	}
+	.social-icons img {
+		width: 5vw;
 	}
 }

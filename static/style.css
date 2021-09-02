@@ -12,7 +12,13 @@ body {
 #logo {
 	margin-left: 5%;
 	display: inline;
-	width: 20vw;
+	width: 22vw;
+}
+
+@media screen and (min-width: 1440px) {
+	body {
+		padding: 6vw;
+	}
 }
 
 @media screen and (max-width: 1024px) {
@@ -22,6 +28,9 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+	#logo {
+		width: 25vw;
+	}
 	body {
 		padding: 20px;
 	}

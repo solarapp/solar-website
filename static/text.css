@@ -40,15 +40,16 @@ h4 {
 
 @media screen and (max-width: 768px) {
 	h1 {
+		font-size: 16vw;
 		text-transform: uppercase;
 	}
 	h2 {
-		font-size: 6.5vw;
+		font-size: 7vw;
 	}
 	h3 {
-		font-size: 5vw;
+		font-size: 6vw;
 	}
 	h4 {
-		font-size: 3.2vw;
+		font-size: 3.8vw;
 	}
 }
